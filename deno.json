@@ -1,0 +1,12 @@
+{
+  "imports": {
+    "hono": "jsr:@hono/hono@^4.4.0"
+  },
+  "tasks": {
+    "start": "deno serve --port 8787 src/index.tsx"
+  },
+  "compilerOptions": {
+    "jsx": "precompile",
+    "jsxImportSource": "hono/jsx"
+  }
+}
